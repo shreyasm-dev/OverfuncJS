@@ -22,3 +22,6 @@ Output -
 "number"
 "string"
 ```
+
+
+The first parameter of the `args()` function has to be the `arguments` object available in functions. The second parameter should be an array filled with functions that return either `true` or `false` depending on the input passed. The third parameter is a function to be executed when the required arguments match.
